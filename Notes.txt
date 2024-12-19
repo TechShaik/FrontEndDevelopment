@@ -59,6 +59,24 @@ CSS - (Cascading Styile Sheets)
 
 syntax : p <(where)>{ colour<(what)> : blue <(value)>; }
 
+selectors:
+        1.CSS element selectors
+        2.CSS id selectors
+        3.CSS class selectors
+        4.CSS grouping selectors
+
+
+Fonts : u can get fonts from google fonts.use span to play with words in a sentence.
+
+colours : get hex colors codes from online
+
+boxes : flow from outside margin -> border -> padding -> element
+
+
+       
+
+
+
 
 
 
