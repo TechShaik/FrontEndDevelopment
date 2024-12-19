@@ -1,0 +1,13 @@
+p#p1{
+    color: red;
+    display: inline;
+ }
+
+p#p2{
+    color: blue;
+    display: inline;
+}
+
+p.pp{
+    background-color: chartreuse;
+}

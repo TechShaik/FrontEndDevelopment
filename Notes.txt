@@ -1,0 +1,75 @@
+1.type all once : alt + select 
+
+2.links : <a href=" "></a>
+
+3.click link and go new window : <a href=" " target="_blank"></a>
+
+4.image : <img src="path " alt="message" widgt="45" height="54">
+
+5.table : <table> 
+         <tr>
+         <th>head</th>
+         </tr>
+         <tr>
+         <td> data </td> 
+         </tr>
+         </table>
+
+6.<form action="file.php"></form>
+
+7.<input type="text" name="sd"> type = text , date , email , number , check box , radio          	button(gender)
+
+8. <textarea rows="" cols="" ></textarea>
+
+9.<label for="same"></label>
+
+  <select name=car" id="same">
+        <option>sdfa</option>
+   </select>
+
+10.<span> </span> - in line 
+
+11.to make inline elements as block elements keep in : li {.....}
+
+12.to make block elements as inline elements keep in : p {..... 
+                                                        display: inline }
+
+13.<div>....</div> used for grouping-its a block element
+   
+   when want to use elements with id's use "#"  ex: dev#<id>
+   when want to use elements with classes's use "."   ex : span.<class>
+
+
+14.<span>....</span> used for same grouping but its inline element
+
+15. ID and CLASSES 
+    1. they are attributes used to apply css on specific elements
+    2. id should be unique-to apply css to a single element.
+    3. class is non unique it can be assigned to multi elements-apply css to many elements    	with class.
+ 
+16. to show spaces use - &nbsp;     
+
+-------------------------------------------------------------------------------------------
+
+CSS - (Cascading Styile Sheets)
+
+	 1.   gives style for raw html
+	 2.   make websites responsive
+	 3.   html gives structure and css gives design
+
+syntax : p <(where)>{ colour<(what)> : blue <(value)>; }
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
