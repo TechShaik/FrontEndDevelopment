@@ -72,6 +72,16 @@ colours : get hex colors codes from online
 
 boxes : flow from outside margin -> border -> padding -> element
 
+position :
+
+ 1.static(default)
+ 2.absolute-changes according to parent 
+ 3.relative- changes according to itself
+ 4.fixed-A fixed element stays pinned to a specific spot on the screen no matter how far you scroll.
+ 5.sticky-A sticky element only sticks within its parent container and scrolls away with the container when it's out  of view.
+
+
+
 
        
 
