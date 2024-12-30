@@ -71,7 +71,7 @@ Fonts : u can get fonts from google fonts.use span to play with words in a sente
 colours : get hex colors codes from online
 
 boxes : flow from outside margin -> border -> padding -> element
-
+-----------------------------------------------------------------------------------------------------------------------
 position :
 
  1.static(default)
@@ -80,7 +80,27 @@ position :
  4.fixed-A fixed element stays pinned to a specific spot on the screen no matter how far you scroll.
  5.sticky-A sticky element only sticks within its parent container and scrolls away with the container when it's out  of view.
 
+----------------------------------------------------------------------------------------------------------------------- 
+ Flex properties :
 
+ 1.flex direction - row (default)
+ 2.flex direction -column
+ 3.flex direction - row-reverse 
+ 4.column direction - row-reverse 
+ 5. flex-direction: row;
+ 6.flex-wrap: wrap
+ 7.justify-content: center;
+ 8.justify-content: space-between;
+ 9. justify-content: space-around;   
+
+-----------------------------------------------------------------------------------------------------------------------
+
+to make responsive :
+
+1.set up veiw port
+2.use max width
+3.use rem/vh/vw
+4.use CSS media queries
 
 
        
