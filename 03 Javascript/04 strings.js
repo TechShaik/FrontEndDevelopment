@@ -15,4 +15,9 @@
  console.log(n.toLowerCase())
  console.log(n.toUpperCase())
  console.log(n.slice(2,5))
+ console.log(n.replace("a","i"))
+ console.log(n.concat("vali"))
+ console.log(n)
+console.log(n.startsWith("sha"))
+//  Strings are immutableZ
 

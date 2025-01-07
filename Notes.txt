@@ -102,6 +102,56 @@ to make responsive :
 3.use rem/vh/vw
 4.use CSS media queries
 
+em : it set size n times of parent size
+
+-----------------------------------------------------------------------------------------------------------------------
+Media Query : @media(max-width){
+   condition;
+}
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Box shadow :
+
+box-shadow : 10 px 20 px;(for box)
+
+for uppper shadow use negative.
+
+text-shadow:10px  20px;(for text)
+
+------------------------------------------------------------------------------------------------------------------------
+
+key frames and animations:
+
+position: relative;
+        animation-name: shaik;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-delay: 0.5s;
+        animation-direction: reverse;
+
+          @keyframes shaik{
+        from{
+        width: 100px;
+        }
+        to{
+         width: 250px;
+        }
+       }
+-----------------------------------------------------------------------------------------------------------------------
+
+Transition :
+
+        {
+  transition-property: background-color;
+            transition-duration:1s;
+        }
+
+        #box:hover {
+            background-color: blue;
+            border-radius: 20px;
+        }
+
 
        
 
