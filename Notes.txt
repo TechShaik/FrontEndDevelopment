@@ -152,22 +152,5 @@ Transition :
             border-radius: 20px;
         }
 
-
-       
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
+ 
 
