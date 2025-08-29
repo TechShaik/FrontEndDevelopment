@@ -57,31 +57,59 @@ CSS - (Cascading Styile Sheets)
 	 2.   make websites responsive
 	 3.   html gives structure and css gives design
 
-syntax : p <(where)>{ colour<(what)> : blue <(value)>; }
+1.Inline CSS(inside line style="bgc=red")  
+2.Internal CSS(inside head using <style></style>
+3.External CSS(link using <link rel=sytle.css>
+margin vs padding
 
-selectors:
-        1.CSS element selectors
-        2.CSS id selectors
-        3.CSS class selectors
-        4.CSS grouping selectors
+margin : space outside the element.
+padding : space inside the element.
 
+color : for-text  
+backgroundColor : for-background.(only set color)
+
+background : set image, position etc....
+
+use HEX-CODE for colors instead of names.
+
+Selectors:
+        0.universal selector (*)
+        1.CSS element/type selectors(<p>)
+        2.CSS id selectors(#)
+        3.CSS class selectors(.)
+        4.CSS attribute selectors(input[type="text"] {
+                                      border: 1px solid blue;
+                                         })
+        5.CCSS list/grouping selector (p,h2{}--(multielement style))
+        6.CSS pseudo selectors(Hover : )
+        
 
 Fonts : u can get fonts from google fonts.use span to play with words in a sentence.
 
 colours : get hex colors codes from online
 
 boxes : flow from outside margin -> border -> padding -> element
------------------------------------------------------------------------------------------------------------------------
-position :
 
- 1.static(default)
- 2.absolute-changes according to parent 
- 3.relative- changes according to itself
- 4.fixed-A fixed element stays pinned to a specific spot on the screen no matter how far you scroll.
- 5.sticky-A sticky element only sticks within its parent container and scrolls away with the container when it's out  of view.
+Text properties :
 
------------------------------------------------------------------------------------------------------------------------ 
- Flex properties :
+Property	Purpose	                 Example Value
+color	         Text color	         red, #000, rgb()
+text-align	Horizontal alignment	left, center
+text-decoration	Underline/strike etc.	underline, none
+text-transform	Case transformation	uppercase, capitalize
+text-indent	First-line indent	30px
+letter-spacing	Space between letters	2px
+word-spacing	Space between words	5px
+line-height	Line spacing	         1.5, 20px
+direction	Text flow direction	ltr, rtl
+white-space	Whitespace handling	normal, nowrap
+text-shadow	Text shadow effect	2px 2px 5px gray
+
+FLEX-BOX PROPERTIES :
+1.display : flex (row)
+2.justify-content : center;(elements inside a cotainer) //if elements are in row
+3.align-items : center ; //if items are in coloumn 
+4.gap : 3px;  //same as margin lightly diferent
 
  1.flex direction - row (default)
  2.flex direction -column
@@ -91,9 +119,18 @@ position :
  6.flex-wrap: wrap
  7.justify-content: center;
  8.justify-content: space-between;
- 9. justify-content: space-around;   
+ 9. justify-content: space-around;
 
 -----------------------------------------------------------------------------------------------------------------------
+position :
+
+ 1.static(default)
+ 2.absolute-changes according to parent(when need to insert 1 elememt in other parent-relative & cihld-absolute). 
+ 3.relative- changes according to itself.we can change by our choice.
+ 4.fixed-A fixed element stays pinned to a specific spot on the screen no matter how far you scroll.
+ 5.sticky-A sticky element only sticks within its parent container and scrolls away with the container when it's out  of view.
+
+----------------------------------------------------------------------------------------------------------------------- 
 
 to make responsive :
 
